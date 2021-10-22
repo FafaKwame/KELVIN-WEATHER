@@ -1,0 +1,12 @@
+ // Today's currnt temprature in Kelvin.
+> const kelvin = 0
+> // converting kelvin into celsuis.
+> const celsius = kelvin - 273
+> // celsuis into fahrenheit.
+> let fahrenheit = celsius * (9/5) + 32
+> // Rounding down fahrenheit to the nearest wholw number
+> fahrenheit = Math.floor(fahrenheit)
+> console.log(`The temprature is ${fahrenheit} degrees Fahrenheit`)
+> let Newton = celsius * (33/100)
+> Newton = Math.floor(Newton)
+> console.log(`The temprature is ${Newton} Newton.`)
